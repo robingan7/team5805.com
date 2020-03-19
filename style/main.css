@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono:300,400,500,700&display=swap');
+html {
+    height: 100%; width: 100%;
+    font-size: 15px;
+    font-family: "Open Sans",sans-serif;
+    background-color: #f2f2f2; 
+    color: #1c1c1c;
+}
+body {
+    margin: 0;
+    min-height : 100%;
+}
+p {
+    margin-bottom: 0;
+}
+a {
+    color: white;
+    text-decoration: underline;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+html, body {
+    overflow: auto;
+}
+h1, p{
+    color: #1c1c1c;
+}
+h1 {
+    font-size: 8vh;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+main.home {
+    text-align: center;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height:auto;
+    margin: 0;
+    background-color: white;
+    top:150px;
+    padding: 0 10px;
+}
+main.home h1 {
+    font-family: "Roboto Mono",monospace; 
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+main.home p {
+    font-size: 3vh;
+    font-weight: 200;
+}
+main.home h1 , main.home p {
+    color: white;
+}
+.logoImg {
+    width: 140px;
+}
+.grid-item h1 {
+    font-weight: 400;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a.cardwraper {
+    text-decoration: none;
+}
+a.cardwraper:hover {
+    opacity: .8;
+    text-decoration: underline;
+}
+.nav-link{
+    text-decoration: none;
+}
+
+.menu {
+    font-family: "Roboto Mono",monospace;
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    color: black;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.menu a:first-child {
+    margin-left: 5%;
+    font-weight: bold;
+}
+.menu a:hover, #current {
+    border-bottom: 2px solid #17bebb;
+}
+
+.menu .icon {
+    display: none;
+}
+
+.dropdown-toggle::after {
+    margin-left: -0.4em;
+}
+
+.donate {
+    color:#b3a369;
+    border-color: #b3a369;
+}
+
+.donate:hover {
+    background-color: #b3a369;
+    border-color: #b3a369;
+}
+@media screen and (max-width: 600px) {
+    .menu a {
+        display: none;
+        margin: 0;
+    }
+    .menu a:not(:last-child) {
+        padding-left: 5%;
+    }
+    .menu a.icon {
+        float: right;
+        background: #f2f2f2;
+        color: #1c1c1c;
+        display: block;
+    }
+
+    h1 {
+        font-size: 4vh!important;
+    }
+
+    main.home p {
+        font-size: 2vh;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .menu.responsive {position: relative;}
+    .menu.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .menu.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    #current {
+        border: none;
+    }
+    .menu a:first-child {
+        margin-left: 0px;
+    }
+    .menu a:hover {
+        border: none;
+        color: #1c1c1c;
+        background: #f2f2f2;
+    }
+}
+
+  @media screen and (max-width: 800px) {
+    main.home h1 {
+        font-size: 6vh;
+    }   
+    .phot {
+        margin: 0px;
+        border-radius: 5px 0 0 5px;
+    }
+}
+
+.navbar {
+    padding: 0.5em 5px;
+    background: white;
+    z-index: 3;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+}
+.nav-item , .navbar-brand{
+    margin: 0 0.8em;
+    font-family: "Roboto Mono";
+    letter-spacing: 2px;
+    border-bottom: .25rem solid transparent;
+    z-index: 13;
+}
+.nav-item i{
+    font-size: 1.5em;
+}
+.active {
+    border-bottom-color: white;
+}
+.dark{
+    border-bottom-color: #1c1c1c;
+}
+
+@media screen and (min-width:990px) {
+    .logo-item {
+        margin: 0 0.5em;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .navbar-collapse {
+        background-color: rgba(240, 240, 240, 0.95);
+    }
+    .logoImg{
+        width: 90px;
+    }
+    .navbar {
+        padding: 1em 5%;
+        padding-bottom: 0.2em;
+    }
+    main.home {
+        top:110px;
+    }
+}
+
+/*loading bar*/
+@keyframes loader {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.progress-bar {
+    overflow: hidden;
+    background-color: #fff!important;
+    width: 100%;
+}
+
+.progress-bar span {
+  display: block;
+}
+
+.bar {
+  background: rgba(0, 0, 0, 0.075);
+}
+
+.progress {
+    animation: loader 1.2s linear infinite;
+    color: black;
+    background-color: black!important;
+    padding: 5px;
+    width: 0;
+    height:5px;
+    border-radius: 0;
+}
+
+.progress-bar {
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 8;
+}
+
+.icons-wrap-list {
+    width:auto;
+    display: flex;
+    justify-content: center;
+}
+.icons-wrap-list a {
+    padding:5px 9px;
+}
+.icons-wrap-list a i{
+    font-size: 28px;
+    color: rgb(135, 130, 130);
+}
+.icons-wrap-list a i:hover{
+    color: black;
+}
+.icons-collect {
+    display: block;
+}
+.footer-text {
+    height: auto;
+    display: block;
+}
+
+/*from https://www.thebluealliance.com css*/
+.banner, .banner::after {
+    -webkit-filter: drop-shadow(0 5px 5px rgba(0,0,0,0.1));
+    filter: drop-shadow(0 5px 5px rgba(0,0,0,0.1));
+}
+
+.banner {
+    background: #0f4bcb;
+    color: white;
+    display: inline-block;
+    height: 170px;
+    width: 140px;
+    line-height: 1.2;
+    margin: 0 0 40px;
+    padding: 8px;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    white-space: normal;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+}
+
+.banner::after {
+    content: '';
+    position: absolute;
+    display: block;
+    border: 70px solid #0f4bcb;
+    border-top-width: 70px;
+    border-bottom-color: rgb(15, 75, 203);
+    border-bottom-style: solid;
+    border-bottom-width: 70px;
+    border-top-width: 5px;
+    border-bottom: 20px transparent solid;
+    top: 100%;
+    left: 0;
+}
+
+.banner .award-name, .banner .award-name-long {
+    font-weight: bolder;
+}
+
+.banner .award-name, .banner .award-name-long {
+    display: table;
+    width: 100%;
+    height: 35px;
+    font-weight: bolder;
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.banner .award-event {
+    font-size: 85%;
+    line-height: 130%;
+}
+
+.banner .award-event, .banner .award-event-long {
+    display: table;
+    text-transform: uppercase;
+    height: 50px;
+    width: 100%;
+}
+
+.banner .award-name span, .banner .award-name-long span {
+    display: table-cell;
+    vertical-align: middle;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.banner .award-event span, .banner .award-event-long span {
+    display: table-cell;
+    vertical-align: middle;
+    max-width: 124px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.banner img {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 75px;
+    max-height: 45px;
+    vertical-align: middle;
+    border: 0;
+}
+
+.banner .award-event, .banner .award-event-long {
+    display: table;
+    text-transform: uppercase;
+    height: 50px;
+    width: 100%;
+}
+
+.banner .award-event {
+    font-size: 85%;
+    line-height: 130%;
+}
