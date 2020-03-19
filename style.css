@@ -10,12 +10,15 @@ body {
     margin: 0;
     min-height : 100%;
 }
+p {
+    margin-bottom: 0;
+}
 a {
-    color: black;
+    color: white;
     text-decoration: underline;
 }
 a:hover{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 html, body {
@@ -27,7 +30,8 @@ h1, p{
 h1 {
     font-size: 8vh;
     font-weight: 200;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
 }
 .logoImg {
     width: 140px;
@@ -48,52 +52,104 @@ a.cardwraper:hover {
 .nav-link{
     text-decoration: none;
 }
-main {
-    min-height:100%;
+main.home {
     text-align: center;
     top: 0;
-    float: left;
-    width: 90%;
-    margin: 0 5%;
-    height: 100%;
-    display: block;
-    position: relative;
-}
-main#home {
     position: absolute;
     width: 100%;
+    height:auto;
     margin: 0;
-    /*
-    background: url("img/cover.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-blend-mode: multiply;
-    background-position: center; */
     background-color: white;
+    top:150px;
 }
-main#home h1 {
+main.home h1 {
     font-family: "Roboto Mono",monospace; 
     font-size: 50px;
     font-weight: 400;
     letter-spacing: 5px;
 }
-main#home p {
+main.home p {
     font-size: 3vh;
     font-weight: 200;
 }
-main#home h1 , main#home p {
-    color: black;
-    z-index: 2;
+main.home h1 , main.home p {
+    color: white;
 }
 .dropdown-item {
     text-decoration: none;
 }
-.centered {
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    position: absolute;
+.front-wrap {
+    display: block;    
+    height:auto;
+    background: #aaa;
+    margin: 0;
+    margin-bottom: 5px;
+    overflow: hidden;
+    padding: 0;
+}
+.captionBlock {
+    background: url("img/cover.jpg") 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+}
+.captionBlock2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-row-gap: 0;
+    grid-column-gap: 0;
+}
+.robotLastest {
+    background: url("img/currentRobot.jpg") 50% 50%;
+    
+}
+.robotSecondLastest {
+    background: url("img/robot2019.jpg") 50% 50%;
+}
+.front-wrap-content {
     width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 3;
+    padding: 45px 10px;
+}
+.robot-content {
+    padding: 65px 10px;
+}
+.iframeBackground {
+    width: 100%;
+    height: 160%;
+    margin-top: -65px;
+    opacity: 0;
+}
+
+.robot-card {
+    min-height:170px;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+}
+.robot-card div {
+    overflow: hidden;
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+.overlay {
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+.wrap-overlay {
+    transition: 0;
+    position: relative;
+    width: calc(100%);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .people-grid{
     margin-top: 5%;
@@ -272,7 +328,7 @@ main#home h1 , main#home p {
 }
 
   @media screen and (max-width: 800px) {
-    main#home h1 {
+    main.home h1 {
         font-size: 6vh;
     }   
     .phot {
@@ -283,8 +339,12 @@ main#home h1 , main#home p {
 
 .navbar {
     padding: 1em 5px;
-    background: transparent;
+    background: white;
     z-index: 3;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
 }
 .nav-item , .navbar-brand{
     margin: 0 0.8em;
@@ -310,13 +370,17 @@ main#home h1 , main#home p {
 }
 
 @media screen and (max-width:990px) {
-    .collapse.show {
-        background-color: rgba(240, 240, 240, 0.85);
+    .navbar-collapse {
+        background-color: rgba(240, 240, 240, 0.95);
     }
     .logoImg{
         width: 90px;
     }
     .navbar {
         padding: 1em 5%;
+        padding-bottom: 0.2em;
+    }
+    main.home {
+        top:110px;
     }
 }
