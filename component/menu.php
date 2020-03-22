@@ -46,7 +46,7 @@ function printMenu($page){
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="people">People</a>
-                        <a class="dropdown-item" href="teams">Teams</a>
+                        <a class="dropdown-item" href="team">Team Photo</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown'.$resources.'">

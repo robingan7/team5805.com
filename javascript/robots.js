@@ -24,12 +24,12 @@ const robots = [
                         Code
                         </a>
                     </li>
-                    <!--<li>
-                        <a href="index">
-                        <i class="fas fa-star" aria-hidden="true"></i>
+                    <li>
+                        <a href="">
+                        <i class="fas fa-book"></i>
                         Business Binder
                         </a>
-                    </li>-->
+                    </li>
                 </ul>
             </div>
             <div>
@@ -79,12 +79,12 @@ const robots = [
                         Code
                         </a>
                     </li>
-                    <!--<li>
-                        <a href="index">
-                        <i class="fas fa-star" aria-hidden="true"></i>
+                    <li>
+                        <a href="">
+                        <i class="fas fa-book"></i>
                         Business Binder
                         </a>
-                    </li>-->
+                    </li>
                 </ul>
             </div>
             <div>
@@ -137,7 +137,7 @@ const robots = [
                     </li>
                     <!--<li>
                         <a href="index">
-                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-book"></i>
                         Business Binder
                         </a>
                     </li>-->
@@ -193,7 +193,7 @@ const robots = [
                     </li>
                     <!--<li>
                         <a href="index">
-                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-book"></i>
                         Business Binder
                         </a>
                     </li>-->
@@ -254,7 +254,7 @@ const robots = [
                     </li>
                     <!--<li>
                         <a href="index">
-                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-book"></i>
                         Business Binder
                         </a>
                     </li>-->

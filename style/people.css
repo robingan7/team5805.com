@@ -1,5 +1,5 @@
 .peopleCard {
-    width: 250px;
+    max-width: 250px;
     display: block;
     padding-top: 0;
     cursor: pointer;
@@ -31,7 +31,8 @@
 }
 
 .grid-item h5 {
-    font-size: 15px;
+    font-size: 13px;
+    text-decoration: underline;
 }
 .image-grid img{
     width: 80px;
@@ -41,7 +42,7 @@
 
 .info-grid {
     float:right;
-    margin-top:10px;
+    padding-left: 20px;
 }
 
 .events-grid {
