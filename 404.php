@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>EVENTS | FRC5805</title>
+        <title>404 | FRC5805</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -13,38 +13,17 @@
         <link rel="stylesheet" type="text/css" href="./style/events.css">
         <script src="./javascript/index.js" defer></script>
         <script src="./javascript/main.js" defer></script>
-        <script src="./javascript/events.js" defer></script>
         <meta name="description" content="Witness the history we've assembled since 2015...">
         <link rel="icon" href="./img/ricon.png" type="image/png">
     </head>
     <body>
         <?php
         include_once 'component/menu.php';
-        printMenu('events');
+        printMenu('404');
         ?>
         <main class="home">
-            <h1>Events</h1>
-            <p class="pAddLine">Check our events...</p>
-            <div class="grid-container events-grid" id="eventBox">
-
-                <div class="event card">
-                    <div class="grid-item">
-                        <h1>Loading</h1>
-                        <ul>
-                            <li>
-                                <p>[TBA]</p>
-                            </li>
-                            <li>
-                                <a href="https://goo.gl/maps/SVKvMQeYjjJtAaQe6">
-                                    <i class="fas fa-map-marked-alt"></i>
-                                    SMCHS
-                                </a>
-                            </li>
-                        </ul>
-                    </div>  
-                </div>
-
-            </div>
+            <h1>404</h1>
+            <p class="pAddLine">Page not found...</p>
             <?php
             include_once 'component/footer.php';
             ?>

@@ -14,13 +14,12 @@
 }
 
 .grid-container p {
-    margin: 1% 0;
     font-size: 15px;
 }
 
 .event {
     display: grid;
-    grid-template-columns: 30% auto;
+    grid-template-columns: 100% auto;
     border-radius: 5px;
     padding-top: 10px;
 }
@@ -34,10 +33,31 @@
     font-size: 20px!important;
 }
 .grid-item p {
-    font-size: 16px!important;
+    font-size: 15px!important;
 }
-.event-club-rush-19 {
-    background: url("img/EDB.JPG");
+@media screen and (max-width: 650px) {
+    .grid-item h1 {
+        font-size: 16px!important;
+    }
+    .grid-item p {
+        font-size: 13.5px!important;
+    }
+}
+.grid-item ul {
+    font-size: 16px;
+    font-weight: 200;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 15px;
+}
+
+.grid-item ul li {
+    float: left;
+    margin-right: 15px;
+}
+
+.grid-item > ul> li > p {
+    font-family: 'Roboto Mono';
 }
 
 .events-grid {

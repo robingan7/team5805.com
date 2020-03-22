@@ -28,24 +28,25 @@ function printMenu($page){
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item'.$home.'"> <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a> </li>
                 <li class="nav-item'.$robots.'"> <a class="nav-link" href="robots">Robots</a> </li>
-                <li class="nav-item'.$events.'">
-                    <a class="nav-link" href="events" id="navbarDropdown" role="button" data-toggle="dropdown"
+                <li class="nav-item'.$events.'"> <a class="nav-link" href="events">Events</a> </li>
+                <!--<li class="nav-item dropdown'.$events.'">
+                    <a class="nav-link dropdown-toggle" href="events" id="navbarDropdown" role="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Events
                     </a>
-                    <!--<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Meetings</a>
                         <a class="dropdown-item" href="#">Competition</a>
-                    </div>-->
-                </li>
+                    </div>
+                </li>-->
                 <li class="nav-item dropdown'.$people.'">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
-                        People
+                        About
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Team Leaders</a>
-                        <a class="dropdown-item" href="#">Mentors</a>
+                        <a class="dropdown-item" href="people">People</a>
+                        <a class="dropdown-item" href="teams">Teams</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown'.$resources.'">

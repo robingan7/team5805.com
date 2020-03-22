@@ -188,10 +188,6 @@ a.cardwraper:hover {
   @media screen and (max-width: 800px) {
     main.home h1 {
         font-size: 43.38px;
-    }   
-    .phot {
-        margin: 0px;
-        border-radius: 5px 0 0 5px;
     }
 }
 
