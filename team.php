@@ -29,6 +29,13 @@
 
                 <div class="event card team">
                     <div class="grid-item">
+                        <h1>2020</h1>
+                        <img src="./img/team/2020.jpg" alt="2019"/>
+                    </div>
+                </div>
+
+                <div class="event card team">
+                    <div class="grid-item">
                         <h1>2019</h1>
                         <img src="./img/team/2019.jpg" alt="2019"/>
                     </div>

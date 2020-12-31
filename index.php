@@ -13,7 +13,7 @@
         <script src="./javascript/index.js" defer></script>
         <script src="./javascript/main.js" defer></script>
         <script src="./javascript/loadBanners.js" defer></script>
-        <meta name="description" content="FRC 5805 SMbly Required Team Docs">
+        <meta name="description" content="FRC 5805 SMbly Required Team Official Site">
         <link rel="icon" href="./img/ricon.png" type="image/png">
     </head>
     <body>
@@ -88,7 +88,7 @@
                     <div class="front-wrap-content paragraph-content">
                         <h1>Mission</h1>
                         <p>
-                            The mission of SMbly Required, a student let robotics team, is to create a welcoming programt hat allows students and members of the community to explore STEM through the process of designing, manufactureing, assembling, and programming. Students, teachers, mentors, and volunteers with various backgrounds utilize their collective skills to work as a unified team. With the help of mentors, students are able to ahve a real-life engineering experience, acquire and master different skills, develop interest and passion, and have fun under the program.
+                            The mission of SMbly Required, a student let robotics team, is to create a welcoming program that allows students and members of the community to explore STEM through the process of designing, manufacturing, assembling, and programming. Students, teachers, mentors, and volunteers with various backgrounds utilize their collective skills to work as a unified team. With the help of mentors, students are able to have a real-life engineering experience, acquire and master different skills, develop interest and passion, and have fun under the program.
                         </p>
                     </div>
                 </div>

@@ -14,7 +14,7 @@
         <link rel="stylesheet" type="text/css" href="./style/people.css">
         <script src="./javascript/index.js" defer></script>
         <script src="./javascript/main.js" defer></script>
-        <script src="./javascript/people.js" defer></script>
+        <script src="./javascript/people.js?version=1" defer></script>
         <meta name="description" content="Meet the people who make up the family...">
         <link rel="icon" href="./img/ricon.png" type="image/png">
     </head>

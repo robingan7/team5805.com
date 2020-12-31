@@ -57,11 +57,11 @@ function printMenu($page){
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="http://5805docs.robingan.org">Reference Site</a>
                         <a class="dropdown-item" href="https://github.com/orgs/SMblyRequired">Github</a>
-                        <a class="dropdown-item" href="https://frc-scope.com">Scouting Website</a>
+                        <a class="dropdown-item" href="http://u880691907-robingan-org.hostingerapp.com/">Scouting Website</a>
                     </div>
                 </li>
-                <li class="nav-item"> <button type="button" class="btn btn-outline-primary donate" 
-                    onclick="window.location.href = \'mailto:robotics@smhs.org\'">Donate</button></li>
+                <!--<li class="nav-item"> <button type="button" class="btn btn-outline-primary donate" 
+                    onclick="window.location.href = \'mailto:robotics@smhs.org\'">Donate</button></li>-->
               </ul>
             </div>
             <div class="collapse navbar-collapse foo">

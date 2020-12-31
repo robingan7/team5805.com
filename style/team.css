@@ -6,3 +6,8 @@
 .team img {
     width: 100%;
 }
+
+.events-grid {
+    max-width: 600px;
+    margin: 15px auto;
+}

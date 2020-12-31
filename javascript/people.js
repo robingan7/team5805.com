@@ -8,7 +8,7 @@ const people = [
     {
         name: "Robin Gan",
         role: "Team Member",
-        position: "Programming lead",
+        position: "Software Director",
         img: "Robin Gan.jpg"
     },
     {
@@ -18,28 +18,10 @@ const people = [
         img: "Alex Lynd.jpg"
     },
     {
-        name: "Robin Gan",
+        name: "Luke Soliman",
         role: "Team Member",
-        position: "Programming lead",
-        img: "Robin Gan.jpg"
-    },
-    {
-        name: "Alex Lynd",
-        role: "Team Member",
-        position: "Web Dev Director",
-        img: "Alex Lynd.jpg"
-    },
-    {
-        name: "Robin Gan",
-        role: "Team Member",
-        position: "Programming lead",
-        img: "Robin Gan.jpg"
-    },
-    {
-        name: "Alex Lynd",
-        role: "Team Member",
-        position: "Web Dev Director",
-        img: "Alex Lynd.jpg"
+        position: "Design Director",
+        img: "Luke Soliman.jpg"
     }
 ];
 
